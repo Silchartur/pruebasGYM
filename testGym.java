@@ -14,6 +14,14 @@ public class testGym {
         ColeccionSuscripcion coleccionSuscripcion = new ColeccionSuscripcion();
         Clase clase = new Clase();
 
+        GregorianCalendar fechaYoga = new GregorianCalendar(2025, 04, 20, 16, 0);
+        GregorianCalendar fechaSpinning = new GregorianCalendar(2025, 05, 21, 8, 30);
+        GregorianCalendar fechaBody = new GregorianCalendar(2025, 04, 21, 10, 0);
+        GregorianCalendar fechaFitness = new GregorianCalendar(2025, 05, 10, 12, 45);
+        Instalacion instalacion = new Instalacion("Sala 1");
+        Instalacion instalacion2 = new Instalacion("Sala 2");
+        Instalacion instalacion3 = new Instalacion("Zona fitness");
+        
         ArrayList<Cliente> clientes = ColeccionCliente.listaClientes;
         clientes.add(new Cliente(0, "Silvia", "Perea", "email@email.com", "123456", 2307, "bien", new SuscripcionBasica(), 20240101, 20241231, true));
         clientes.add(new Cliente(2, "Esther", "Díaz", "esther@email.com", "234567890", 1985, "Excelente", new SuscripcionPremium(), 20240301, 20250301, true));
@@ -31,6 +39,11 @@ public class testGym {
         empleados.add(new Empleado("Raúl", "12345678XH", "C/La moraleja2", "1350", "Yoga", 543534534));
         empleados.add(new Empleado("Salomón", "12345678XN", "C/La moraleja3", "1400", "Cardio", 342414));
         /* Gestion de empleados y permisos */
+
+        colecClases.anyadirClase(new Clase("Yoga", instalacion, fechaYoga, empleados.get(1), 30));
+        colecClases.anyadirClase(new Clase("Spinning", instalacion2, fechaSpinning, null, 25));
+        colecClases.anyadirClase(new Clase("Fit Moves", instalacion3, fechaFitness, empleados.get(0), 10));
+        colecClases.anyadirClase(new Clase("Body Combat", instalacion, fechaBody, empleados.get(2), 30));
 
         /* Equipos e instalaciones */
         Equipo eq = new Equipo();
@@ -90,6 +103,7 @@ public class testGym {
                                             System.out.println("2. Eliminar clase");
                                             System.out.println("0. Salir");
                                             opcion = tec.nextInt();
+                                            tec.nextLine();
 
                                             switch (opcion) {
                                                 case 1:

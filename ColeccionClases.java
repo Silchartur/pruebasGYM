@@ -266,7 +266,13 @@ public class ColeccionClases {
                     int idUsuario = tec.nextInt();
                     tec.nextLine();
         
-                    Cliente cliente = new Cliente(idUsuario);
+                    Cliente cliente = null;
+                    for (Cliente c: ColeccionCliente.listaClientes) {
+                        if(c.getId() == idUsuario) {
+                            cliente = c;
+                        }
+                    }
+                    
                     clase.registrarCliente(cliente);
                 }
 
