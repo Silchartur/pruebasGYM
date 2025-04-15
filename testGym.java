@@ -26,6 +26,10 @@ public class testGym {
         Encargado.aCargoDe = new ArrayList<>();
         ArrayList<Encargado> encargados = new ArrayList<>();
         ArrayList<Empleado> empleados = new ArrayList<>();
+        encargados.add(new Encargado("Sandra", "12345678X", "C/La moraleja", "1800", 1234566789));
+        empleados.add(new Empleado("Pedro", "12345678XY", "C/La moraleja1", "1300", "Fitness", 23123213));
+        empleados.add(new Empleado("Raúl", "12345678XH", "C/La moraleja2", "1350", "Yoga", 543534534));
+        empleados.add(new Empleado("Salomón", "12345678XN", "C/La moraleja3", "1400", "Cardio", 342414));
         /* Gestion de empleados y permisos */
 
         /* Equipos e instalaciones */
