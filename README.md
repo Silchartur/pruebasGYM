@@ -1,4 +1,6 @@
-<img src="./f9ae72cc-563b-4782-ab02-69e8f691b4ee.png" alt="Logo del proyecto" width="100"/>
+<p align="center">
+  <img src="./logo.png" width="200" />
+</p>
 
 # Soluciones de Desarrollo Dinamicas
 ## 🏋️ Aplicación de Gestión para Franquicias de Gimnasios
@@ -7,16 +9,14 @@ Sistema en desarrollo orientado a cubrir las necesidades de gestión integral en
 🧑‍💻 **IDE utilizado**: Visual Studio Code
 
 
-
 ## 📚 Índice
 
 - [🔧 Funcionalidades](#funcionalidades)
 - [🛠️ Tecnologías empleadas](#tecnologías-empleadas)
 - [👥 Equipo de desarrollo](#equipo-de-desarrollo)
 - [💡 Ejemplo de código Java](#ejemplo-de-código-java)
-- [📌 Estado actual del proyecto](#estado_actual_del_proyecto)
+- [📌 Estado actual del proyecto](#estado-actual-del-proyecto)
 - [📬 Contacto](#contacto)
-
 
 ## Funcionalidades
 
@@ -70,7 +70,6 @@ public void mostrarSuscripciones() {
 }
 
 ```
-
 
 ## Estado actual del proyecto
 
