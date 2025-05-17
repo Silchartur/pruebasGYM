@@ -1,6 +1,6 @@
 <img src="./f9ae72cc-563b-4782-ab02-69e8f691b4ee.png" alt="Logo del proyecto" width="100"/>
 
-# Proyecto Intermodular - Grupo 4 (1º DAW)
+# Soluciones de Desarrollo Dinamicas
 ## 🏋️ Aplicación de Gestión para Franquicias de Gimnasios
 Sistema en desarrollo orientado a cubrir las necesidades de gestión integral en una cadena de gimnasios.
 
@@ -18,7 +18,7 @@ Sistema en desarrollo orientado a cubrir las necesidades de gestión integral en
 - [📬 Contacto](#contacto)
 
 
-## 🔧 Funcionalidades
+## Funcionalidades
 
 - Gestión y seguimiento de las clases impartidas.
 - Administración de clientes y tipos de suscripción contratados.
@@ -28,7 +28,7 @@ Sistema en desarrollo orientado a cubrir las necesidades de gestión integral en
 - Interfaz visual moderna e interactiva con Bootstrap.
 
 
-## 🛠️ Tecnologías empleadas
+## Tecnologías empleadas
 
 - **Java** ☕ – Lógica del sistema  
 - **MySQL** 🌍 – Gestión de base de datos  
@@ -36,7 +36,7 @@ Sistema en desarrollo orientado a cubrir las necesidades de gestión integral en
 - **Git** 🧑‍🤝‍🧑 – Control de versiones y trabajo en equipo
 
 
-## 👥 Equipo de desarrollo
+## Equipo de desarrollo
 
 | Módulo | Responsable | GitHub |
 |--------|-------------|--------|
@@ -49,7 +49,7 @@ Sistema en desarrollo orientado a cubrir las necesidades de gestión integral en
 Cada miembro se encargó de una parte concreta del sistema y sus funcionalidades en el panel principal, codificadas en Java.
 
 
-## 💡 Ejemplo de código Java
+## Ejemplo de código Java
 
 ### Visualizar suscripciones activas
 ```java
@@ -72,7 +72,7 @@ public void mostrarSuscripciones() {
 ```
 
 
-## 📌 Estado actual del proyecto
+## Estado actual del proyecto
 
 Este proyecto se encuentra en una **fase avanzada de desarrollo**. Los subsistemas están completados y funcionando de manera individual. Actualmente, se están realizando ajustes finales en el diseño del panel de administración.
 
@@ -82,7 +82,7 @@ Se espera que la versión final esté completamente operativa próximamente, inc
 - Introducir datos dentro de nuestra base de datos para poder realizar consultas. 
 
 
-## 📬 Contacto
+## Contacto
 
 Si deseas saber más sobre este proyecto o colaborar en su desarrollo, puedes ponerte en contacto con cualquiera de los miembros del equipo a través de sus perfiles de GitHub mencionados anteriormente.
 
